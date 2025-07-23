@@ -34,5 +34,5 @@ async def say(ctx,*, mensaje):
 async def motive(ctx):
     await ctx.send("Qué tal: " + motivations())
 
-bot.run("MTM5MzM5MTYwNDY5MzQ3MTMxMg.GXPPDm.3kaDVMheV_SwlzmZwmWC6WsN_1rNSzMTRLIvPw") # Corre el código
+bot.run(TOKEN) # Corre el código
 
